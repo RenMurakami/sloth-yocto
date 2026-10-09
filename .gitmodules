@@ -1,0 +1,6 @@
+[submodule "meta-sloth"]
+	path = meta-sloth
+	url = https://github.com/RenMurakami/meta-sloth.git
+[submodule "yocto-jetson-buildenv"]
+	path = yocto-jetson-buildenv
+	url = https://github.com/RenMurakami/yocto-jetson-buildenv.git

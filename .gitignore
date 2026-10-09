@@ -1,0 +1,20 @@
+# Build trees and kas work directories
+/build/
+/build-*/
+/kas-fetch/
+
+# Flash packages extracted from tegraflash tarballs (generated)
+/flash/
+
+# Local caches, if not on /srv/yocto
+/downloads/
+/sstate-cache/
+
+# Per-machine files
+/sloth-authorized_keys
+/sloth-target-check.txt
+
+# Old local layer stack. Upstream layers are now pinned by
+# meta-sloth/kas/sloth-orin-nano-fetch.yml; this is only used by
+# sloth-orin-nano.yml.
+/tegra-demo-distro/

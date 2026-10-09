@@ -18,7 +18,7 @@ the kas file. A repo is never pinned in both places.
 ## Setup
 
 ```bash
-git clone --recursive https://github.com/RenMurakami/<this-repo>.git ~/yocto
+git clone --recursive https://github.com/RenMurakami/sloth-yocto.git ~/yocto
 cd ~/yocto
 docker build -t yocto-jetson:wrynose docker/
 sudo mkdir -p /srv/yocto/{downloads,sstate-cache} && sudo chown -R "$USER" /srv/yocto

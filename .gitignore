@@ -13,6 +13,8 @@
 # Per-machine files
 /sloth-authorized_keys
 /sloth-target-check.txt
+# Root password hash for sloth images (SLOTH_ROOT_PASSWORD_HASH_FILE). Secret.
+/sloth-root-password.hash
 
 # Old local layer stack. Upstream layers are now pinned by
 # meta-sloth/kas/sloth-orin-nano-fetch.yml; this is only used by
